@@ -61,6 +61,46 @@
                 <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a> — Where I find answers when I am stuck</li>
             </ul>
         </section>
+
+        
+        <!-- Contact form -->
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Want to collaborate on a project, hire me, or just say hi? Fill out the form below.</p>
+            <form action="/submit" method="POST">
+                <div>
+                    <label for="sender-name">Your Name:</label><br>
+                    <input type="text" id="sender-name" name="sender-name" placeholder="e.g. Brian Ochieng" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="sender-email">Your Email:</label><br>
+                    <input type="email" id="sender-email" name="sender-email" placeholder="e.g. brian@gmail.com" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="reason">Reason for Contact:</label><br>
+                    <select id="reason" name="reason">
+                        <option value="collaboration">Project Collaboration</option>
+                        <option value="job">Job Opportunity</option>
+                        <option value="question">Question about My Work</option>
+                        <option value="other">Just Saying Hello</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="contact-message">Your Message:</label><br>
+                    <textarea id="contact-message" name="contact-message" rows="6" cols="40" placeholder="Write your message here..." required></textarea>
+                </div>
+                <br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
      </main>
 </body>
 </html>
