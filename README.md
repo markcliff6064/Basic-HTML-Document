@@ -23,7 +23,7 @@ Project Execution
 
 1. Clone the repository.
 2. Open the project directory in your preferred code editor.
-3. Launch the "index.html" file in a web browser.
+3. Launch the example: "index.html" file in a web browser.
 
 Objective
 
